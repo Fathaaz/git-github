@@ -28,11 +28,11 @@
    ```
 Masuk ke laman berikut:
 https://github.com/settings/ssh/new
-Lalu copy paste SSH Key yang telah dibuat
+Copy paste SSH Key yang telah dibuat
+Lalu klik Add SSH Key
 ```
 
 ![Screenshot 2024-11-20 213628](https://github.com/user-attachments/assets/d80bf2ce-314f-4c7c-a0ca-cc5c730d875a)
-
 
 ## Create Repository
 ### 1. Buat Repository Baru 
@@ -106,12 +106,20 @@ git push origin --delete (nama branch pada Github yang sama dengan lokal yang in
 ### 5. Apabila berhasil pada repository branch tadi akan hilang
 
 ## Merging Branch in Github
-### 1. Pada terminal pindah ke branch utama yang ingin digabungkan dengan command berikut
+### 1. Pada terminal pindah ke branch yang ingin digabungkan dengan command berikut
 ```
-git checkout (nama branch utama)
+git checkout (nama branch tujuan yang ingin digabungkan)
 ```
-### 2. Gabungkan branch dengan menggunakan command berikut
+### 2. Untuk memastikan branch up to date gunakan command line berikut
 ```
-git merge (nama branch yang ingin digabungkan dengan branch utama)
+git pull origin (nama branch tujuan yang ingin digabungkan)
+```
+### 3. Gabungkan branch dengan menggunakan command berikut
+```
+git merge (nama branch yang ingin digabungkan dengan branch tujuan)
+```
+### 4. Upload merge yang telah dilakukan ke github
+```
+git push origin (nama branch tujuan)
 ```
 ## Other Procedure
