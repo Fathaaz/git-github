@@ -157,7 +157,6 @@ git push origin (nama branch tujuan)
 
 ### 5. Cek perubahan pada repositori
 
-![image](https://github.com/user-attachments/assets/9527fb5e-511e-4841-9ea8-d593cb4f980d)
-
+![image](https://github.com/user-attachments/assets/68831641-0696-476f-af50-b60271d49fb0)
 
 ## Other Procedure
