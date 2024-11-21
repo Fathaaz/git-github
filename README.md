@@ -80,22 +80,26 @@ git branch -m main
 ![Screenshot 2024-11-21 124740](https://github.com/user-attachments/assets/37c9a1ad-5a0b-4641-89c0-c38bb6b44172)
 
 ## Push File from Local to Github
-### 1. Pada Folder Baru Tadi Dapat Diisi File Apa saja (Dalam langkah ini file yang akan diupload adalah Tes.txt)
+### 1. Pada Folder Baru Tadi Dapat Diisi File Apa saja
 ### 2. Pada Terminal di Folder Baru Tadi Masukkan Command Line Berikut
 ```
 git add . 
 git commit -m "(Deskripsi perubahan)"
 git push origin (branch yang ingin dituju)
 ```
+![Screenshot 2024-11-21 130114](https://github.com/user-attachments/assets/5d6b800d-e133-4b63-9067-24b1df69f8ed)
+
 ### 3. Jika Langkah Di Atas Berhasil akan Muncul File Baru Pada Branch yang Dituju
+![Screenshot 2024-11-21 130143](https://github.com/user-attachments/assets/fdaf40f0-5dc2-44c4-ae3c-2539c39f6e51)
 
 ## Create New Branch in Github 
 ### 1. Branch adalah versi lainnya dari suatu folder di Github, memungkinkan pekerjaan terpisah tanpa mengganggu branch utama (main)
 ### 2. Buka folder yang diinginkan yang telah terhubung dengan github
-### 3. Buat branch dengan menggunakan command berikut (Dalam langkah ini nama branch adalah Tes
+### 3. Buat branch dengan menggunakan command berikut
 ```
 git checkout -b (Nama branch yang ingin dibuat)
 ```
+
 ### 4. Untuk memastikan kita telah pindah ke branch yang baru digunakan command line berikut
 ```
 git checkout (Nama branch yang baru dibuat)
