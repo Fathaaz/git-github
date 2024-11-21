@@ -7,6 +7,7 @@
 ## Early Procedure
 ### 1. Melakukan instalasi Git ke PC/Laptop
 	https://git-scm.com/downloads
+ ![screenshot-1732147697821](https://github.com/user-attachments/assets/4869d690-5eae-4456-a8ea-e3fe0da6c0ce)
 ### 2. Membuat akun Github
 	https://github.com/join
 ### 3. Melakukan setting pada Terminal
