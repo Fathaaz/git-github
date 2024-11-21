@@ -153,7 +153,11 @@ git merge (nama branch yang ingin digabungkan dengan branch tujuan)
 ```
 git push origin (nama branch tujuan)
 ```
-
 ![image](https://github.com/user-attachments/assets/c8b1332c-38e6-419e-8946-ca398e123133)
+
+### 5. Cek perubahan pada repositori
+
+![image](https://github.com/user-attachments/assets/9527fb5e-511e-4841-9ea8-d593cb4f980d)
+
 
 ## Other Procedure
