@@ -50,18 +50,24 @@ ssh -T git@github.com
 https://github.com/new
 Masukkan nama dan tipenya (Public atau Private)
 ```
+![Screenshot 2024-11-21 124519](https://github.com/user-attachments/assets/cc1c3ff0-6ca8-4ac3-a0af-2e6b523e4151)
+
 ### 2. Buka Repository yang Telah Dibuat
 
 ### 3. Salin link SSH
 ```
 Klik Code, lalu klik bagian SSH kemudian pencet tombol berbentuk 2 persegi untuk langsung meng-copy
 ```
+![Screenshot 2024-11-21 124607](https://github.com/user-attachments/assets/a7afee25-f747-41a3-ba14-197555c403ee)
+
 ### 4. Untuk Menghubungkan File Lokal dengan Repositori yang Telah Dibuat Digunakan Cara Berikut
 
 #### a. Buka Terminal pada File Local yang Diinginkan lalu gunakan Command Berikut 
 ```
 git clone (Link ssh yang telah di copy tadi)
 ```
+![Screenshot 2024-11-21 124642](https://github.com/user-attachments/assets/f609b2d4-345b-4a6a-bcdd-b1ce5d186073)
+
 #### b. Jika Langkah Sebelumnya Berhasil akan Muncul Folder Baru 
 #### c. Buka Folder Tersebut lalu Buka Terminal atau Gunakan Command Line Berikut.
 ```
@@ -71,6 +77,7 @@ cd (Lokasi Folder Baru )
 ```
 git branch -m main
 ```
+![Screenshot 2024-11-21 124740](https://github.com/user-attachments/assets/37c9a1ad-5a0b-4641-89c0-c38bb6b44172)
 
 ## Push File from Local to Github
 ### 1. Pada Folder Baru Tadi Dapat Diisi File Apa saja (Dalam langkah ini file yang akan diupload adalah Tes.txt)
