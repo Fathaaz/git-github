@@ -10,21 +10,25 @@
  ![screenshot-1732147697821](https://github.com/user-attachments/assets/4869d690-5eae-4456-a8ea-e3fe0da6c0ce)
 ### 2. Membuat akun Github
 	https://github.com/join
+ ![screenshot-1732147814907](https://github.com/user-attachments/assets/309c90cd-8883-4085-8ae2-536ab54f01c0)
 ### 3. Melakukan setting pada Terminal
    ```
    git config --global user.name (masukkan username)
    git config --global user.email (masukkan email)
    ```
+![Screenshot 2024-11-21 124034](https://github.com/user-attachments/assets/e0060b5b-243a-4e75-985f-73e741b1fa57)
 ### 4. Membuat SSH Keys dan Menghubungkannya Pada Github
 #### a. Membuat Key pada Terminal dengan Menggunakaan Command Line Berikut
    ```
    ssh-keygen -t ed25519 -C (masukkan email)
    ### Lalu pencet enter 2x ###
    ```
+ ![Screenshot 2024-11-21 072328](https://github.com/user-attachments/assets/e3b171e1-6490-4ec9-8741-95c37a8bd3d4)
    #### b. Copy SSH Key yang Telah Dibuat dengan Command Line Berikut
    ```
    cat ~/.ssh/id_ed25519.pub
    ```
+![Screenshot 2024-11-21 072335](https://github.com/user-attachments/assets/fc4c73b1-de8f-40ad-ac3a-9e5cfe5a5dd3)
    #### c. Menambahkan SSH Key yang Telah Dibuat ke Github
    ```
 Masuk ke laman berikut:
@@ -32,6 +36,7 @@ https://github.com/settings/ssh/new
 Copy paste SSH Key yang telah dibuat
 Lalu klik Add SSH Key
 ```
+![Screenshot 2024-11-21 072554](https://github.com/user-attachments/assets/26330a4e-3105-4123-afe5-b2bdb783d0a6)
 
 ![Screenshot 2024-11-20 213628](https://github.com/user-attachments/assets/d80bf2ce-314f-4c7c-a0ca-cc5c730d875a)
 
