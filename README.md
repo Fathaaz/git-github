@@ -99,17 +99,19 @@ git push origin (branch yang ingin dituju)
 ```
 git checkout -b (Nama branch yang ingin dibuat)
 ```
-
+![image](https://github.com/user-attachments/assets/87e1465d-66cb-4fe9-b13c-5e6f3f4e58b5)
 ### 4. Untuk memastikan kita telah pindah ke branch yang baru digunakan command line berikut
 ```
 git checkout (Nama branch yang baru dibuat)
 ```
+![image](https://github.com/user-attachments/assets/5e6c4b95-a854-44d6-9be8-e989b9988ce4)
 ### 5. Upload branch yang baru dibuat ke Github
 ```
 git push origin (Nama brannch yang baru dibuat)
 ```
+![image](https://github.com/user-attachments/assets/99b5580f-59b0-4240-b0cb-9fe38a8914b3)
 ### 6. Apabila langkah berhasil akan muncul branch baru pada repository
-
+![Screenshot 2024-11-21 125133](https://github.com/user-attachments/assets/3b74115a-ce25-4fb9-9635-610228654e88)
 ## Delete Branch in Github
 ### 1. Pada folder tadi buka terminal
 ### 2. Pindah ke branch lain (Selain yang akan dihapus)
@@ -124,7 +126,12 @@ git branch -d (nama branch yang ingin dihapus)
 ```
 git push origin --delete (nama branch pada Github yang sama dengan lokal yang ingin dihapus)
 ```
+
+![Screenshot 2024-11-21 125433](https://github.com/user-attachments/assets/cedd0c0b-4f8c-4a2e-8425-59a68bc320ed)
+
 ### 5. Apabila berhasil pada repository branch tadi akan hilang
+
+![Screenshot 2024-11-21 125451](https://github.com/user-attachments/assets/dbfb865c-321d-4777-9d2c-5439a7a579f4)
 
 ## Merging Branch in Github
 ### 1. Pada terminal pindah ke branch yang ingin digabungkan dengan command berikut
@@ -139,8 +146,14 @@ git pull origin (nama branch tujuan yang ingin digabungkan)
 ```
 git merge (nama branch yang ingin digabungkan dengan branch tujuan)
 ```
+
+![Screenshot 2024-11-21 154452](https://github.com/user-attachments/assets/232adbfd-8e93-43b2-b94e-f60ca6c82caa)
+
 ### 4. Upload merge yang telah dilakukan ke github
 ```
 git push origin (nama branch tujuan)
 ```
+
+![image](https://github.com/user-attachments/assets/c8b1332c-38e6-419e-8946-ca398e123133)
+
 ## Other Procedure
