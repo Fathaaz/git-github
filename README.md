@@ -114,5 +114,4 @@ git checkout (nama branch utama)
 ```
 git merge (nama branch yang ingin digabungkan dengan branch utama)
 ```
-
 ## Other Procedure
