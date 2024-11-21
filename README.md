@@ -2,7 +2,7 @@
 
 | Nama  | Division        | Sub-Division  |
 | ----- | ---------- | ---------- |
-| Name here   | ELC/PGR | Sub-div |
+| Fatharanni Faza   | ELC | Electrical Design |
 
 ## Early Procedure
 ### 1. Melakukan instalasi Git ke PC/Laptop
@@ -63,6 +63,14 @@ git branch -m main
 ```
 
 ## Push File from Local to Github
+### 1. Pada Folder Baru Tadi Dapat Diisi File Apa saja (Dalam langkah ini file yang akan diupload adalah Tes.txt)
+### 2. Masukkan Command Line Berikut
+```
+git add . 
+git commit -m "(Deskripsi perubahan)"
+git push origin (branch yang ingin dituju)
+```
+### 3. Jika Langkah Di Atas Berhasil akan Muncul File Baru Pada Branch yang Dituju
 
 ## Create New Branch in Github 
 
