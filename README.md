@@ -90,7 +90,7 @@ git push origin (branch yang ingin dituju)
 ![Screenshot 2024-11-21 130114](https://github.com/user-attachments/assets/5d6b800d-e133-4b63-9067-24b1df69f8ed)
 
 ### 3. Jika Langkah Di Atas Berhasil akan Muncul File Baru Pada Branch yang Dituju
-![Screenshot 2024-11-21 130143](https://github.com/user-attachments/assets/fdaf40f0-5dc2-44c4-ae3c-2539c39f6e51)
+![image](https://github.com/user-attachments/assets/5ec1d0cc-b1e2-4191-b79d-aea2bd2d4ead)
 
 ## Create New Branch in Github 
 ### 1. Branch adalah versi lainnya dari suatu folder di Github, memungkinkan pekerjaan terpisah tanpa mengganggu branch utama (main)
