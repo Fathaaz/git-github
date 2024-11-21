@@ -36,9 +36,13 @@ https://github.com/settings/ssh/new
 Copy paste SSH Key yang telah dibuat
 Lalu klik Add SSH Key
 ```
-![Screenshot 2024-11-21 072554](https://github.com/user-attachments/assets/26330a4e-3105-4123-afe5-b2bdb783d0a6)
+![Screenshot 2024-11-21 124249](https://github.com/user-attachments/assets/8134eea0-49b7-46be-bd75-cde581dd7183)
 
-![Screenshot 2024-11-20 213628](https://github.com/user-attachments/assets/d80bf2ce-314f-4c7c-a0ca-cc5c730d875a)
+#### d. Pastikan SSH Key dapat digunakan dengan menggunakan command line berikut
+```
+ssh -T git@github.com
+```
+![Screenshot 2024-11-21 072554](https://github.com/user-attachments/assets/26330a4e-3105-4123-afe5-b2bdb783d0a6)
 
 ## Create Repository
 ### 1. Buat Repository Baru 
