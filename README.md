@@ -35,6 +35,32 @@ Lalu copy paste SSH Key yang telah dibuat
 
 
 ## Create Repository
+### 1. Buat Repository Baru 
+```
+https://github.com/new
+Masukkan nama dan tipenya (Public atau Private)
+```
+### 2. Buka Repository yang Telah Dibuat
+
+### 3. Salin link SSH
+```
+Klik Code, lalu klik bagian SSH kemudian pencet tombol berbentuk 2 persegi untuk langsung meng-copy
+```
+### 4. Untuk Menghubungkan File Lokal dengan Repositori yang Telah Dibuat Digunakan Cara Berikut
+
+#### a. Buka Terminal pada File Local yang Diinginkan lalu gunakan Command Berikut 
+```
+git clone (Link ssh yang telah di copy tadi)
+```
+#### b. Jika Langkah Sebelumnya Berhasil akan Muncul Folder Baru 
+#### c. Buka Folder Tersebut lalu Buka Terminal atau Gunakan Command Line Berikut.
+```
+cd (Lokasi Folder Baru )
+```
+#### d. Masukkan command line berikut pada Git Bash
+```
+git branch -m main
+```
 
 ## Push File from Local to Github
 
