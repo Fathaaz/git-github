@@ -42,5 +42,5 @@ int main(){
 ## 6. Dengan outputnya adalah hello world!2
 
 
-## 2. uint8_t eightBitVariable = 250;: Menginisialisasi variabel eightBitVariable dengan tipe uint8_t yang hanya menggunakan 8-bit (1 byte) memori dan dapat menyimpan nilai dari 0 sampai 255. Unsigned int unsignedInt = 255;: Menginisialisasi variabel unsignedInt dengan tipe unsigned int yang menyimpan nilai dari 0 sampai 255 dengan menggunakan 32-bit (4 byte).
+### 2. uint8_t eightBitVariable = 250;: Menginisialisasi variabel eightBitVariable dengan tipe uint8_t yang hanya menggunakan 8-bit (1 byte) memori dan dapat menyimpan nilai dari 0 sampai 255. Unsigned int unsignedInt = 255;: Menginisialisasi variabel unsignedInt dengan tipe unsigned int yang menyimpan nilai dari 0 sampai 255 dengan menggunakan 32-bit (4 byte).
 
