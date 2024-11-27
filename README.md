@@ -20,7 +20,7 @@ int main(){
     printf("%d",calculate);
 }
 ```
-#### 1. Library stdio.h adalah library standar untuk fungsi input output.
+ 1. Library stdio.h adalah library standar untuk fungsi input output.
 ### 2. Pada awalnya variabel a dideklarasikan sebagai 1 dan variabel b dideklarasikan sebagai 2.
 ### 3. Kemudian dideklarasikan variabel calculate, yang merupakan hasil tambah dari a + b (1+2).
 ### 4. Lalu program akan mencetak output berupa hello world!3.
