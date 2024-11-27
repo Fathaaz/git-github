@@ -4,44 +4,43 @@
 | ----- | ---------- | ---------- |
 | Name here   | ELC/PGR | Sub-div |
 
-## Early Procedure
-### 1. Melakukan instalasi Git ke PC/Laptop
-	https://git-scm.com/downloads
-### 2. Membuat akun Github
-	https://github.com/join
-### 3. Melakukan setting pada Terminal
-   ```
-   git config --global user.name (masukkan username)
-   git config --global user.email (masukkan email)
-   ```
-### 4. Membuat SSH Keys dan Menghubungkannya Pada Github
-#### a. Membuat Key pada Terminal dengan Menggunakaan Command Line Berikut
-   ```
-   ssh-keygen -t ed25519 -C (masukkan email)
-   ### Lalu pencet enter 2x ###
-   ```
-   #### b. Copy SSH Key yang Telah Dibuat dengan Command Line Berikut
-   ```
-   cat ~/.ssh/id_ed25519.pub
-   ```
-   #### c. Menambahkan SSH Key yang Telah Dibuat ke Github
-   ```
-Masuk ke laman berikut:
-https://github.com/settings/ssh/new
-Lalu copy paste SSH Key yang telah dibuat
+#NewFile
 ```
+#include <stdio.h>
+int main(){
+    int a = 1, b = 2; // deklarasi variabel
+    // /*same as 
+    // int a = 1;
+    // int b = 2;
 
-![Screenshot 2024-11-20 213628](https://github.com/user-attachments/assets/d80bf2ce-314f-4c7c-a0ca-cc5c730d875a)
+    int calculate;
+    calculate = a + b ; //1 + 2
+
+    printf ("hello world!");
+    printf("%d",calculate);
+}
+```
+## 1. Library stdio.h adalah library standar untuk fungsi input output
+## 2. Pada awalnya variabel a dideklarasikan sebagai 1 dan variabel b dideklarasikan sebagai 2.
+## 3. Kemudian dideklarasikan variabel calculate, yang merupakan hasil tambah dari a + b (1+2).
+## 4. Lalu program akan mencetak output berupa hello world!3.
+## 5. Selain penambahan dapat juga dibuat menjadi perkalian seperti program berikut.
+```
+int main(){
+    int a = 1, b = 2; // deklarasi variabel
+    // /*same as 
+    // int a = 1;
+    // int b = 2;
+
+    int calculate;
+    calculate = a * b ; //1 x 2 = 2
+
+    printf ("hello world!");
+    printf("%d",calculate);
+}
+```
+## 6. Dengan outputnya adalah hello world!2
 
 
-## Create Repository
+## 2. uint8_t eightBitVariable = 250;: Menginisialisasi variabel eightBitVariable dengan tipe uint8_t yang hanya menggunakan 8-bit (1 byte) memori dan dapat menyimpan nilai dari 0 sampai 255. Unsigned int unsignedInt = 255;: Menginisialisasi variabel unsignedInt dengan tipe unsigned int yang menyimpan nilai dari 0 sampai 255 dengan menggunakan 32-bit (4 byte).
 
-## Push File from Local to Github
-
-## Create New Branch in Github 
-
-## Delete Branch in Github
-
-## Merging Branch in Github
-
-## Other Procedure
