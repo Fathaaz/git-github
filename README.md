@@ -334,7 +334,16 @@ int main(){
 6. Kemudian for ketiga akan mencetak hasil dari array yang telah diurutkan dengan bubble sort.
 7. Loop while(a<10) memeriksa apakah a kurang dari 10. Karena a dimulai dengan nilai 10, loop ini tidak akan dijalankan sama sekali.
 8. Sedangkan pada do{...}While(a<10) akan dicetak 10 terlebih dahulu, baru memeriksa kondisi apakah a kurang dari 10. Karenanya a tidak kurang dari 10 maka loop tidak dijalankan lagi.
-9. 
+
+# If-Else
+1. Pada if dan else if digunakan operator pembanding sama dengan (==), tidak sama dengan (!=), kurang dari dan lebih dari sama dengan (<=,>), operator not (!), operator and (&&) dan operator atau (||)
+2.
+```
+// if(a < c ){
+//     printf("a is smaller than c\n");
+// } else {
+//     printf("a is bigger than c\n");
+// }
 
 
 
