@@ -336,16 +336,97 @@ int main(){
 8. Sedangkan pada do{...}While(a<10) akan dicetak 10 terlebih dahulu, baru memeriksa kondisi apakah a kurang dari 10. Karenanya a tidak kurang dari 10 maka loop tidak dijalankan lagi.
 
 # If-Else
-1. Pada if dan else if digunakan operator pembanding sama dengan (==), tidak sama dengan (!=), kurang dari dan lebih dari sama dengan (<=,>), operator not (!), operator and (&&) dan operator atau (||)
-2.
+1. Pada if dan else if digunakan operator pembanding sama dengan (==), tidak sama dengan (!=), kurang dari dan lebih dari sama dengan (<=,>), operator not (!), operator and (&&) dan operator atau (||).
+Dalam membandingkan dua nilai, kedua nilai dapat dilakukan operasi aritmatika, if ((c % 2 == 0) || (d % 2 == 0)).
+3.
 ```
 // if(a < c ){
 //     printf("a is smaller than c\n");
 // } else {
 //     printf("a is bigger than c\n");
 // }
+```
+Pada bagian ini jika a kurang dari c maka akan dicetak "a is smaller than c" sedangkan jika a tidak kurang dari c maka akan dicetak "a is bigger than c"
+3.
+```
+// (condition) ? [true_statements] : [false_statements];
+// (a < c) ? printf("a is smaller than c\n") : printf("a is not smaller than c\n");
+```
+Dapat juga ditulis seperti ini
+4.
+```
+///*
+// if(a < c ){
+//     printf("a is smaller than c\n");
+// } else if (a == c){
+//     printf("a is equal to c\n");
+// } else if(a > c){ // or we can also use else without specifying the parameter
+//     printf("a is bigger than c\n");
+// }
+//*/
+```
+Pada bagian ini jika a kurang dari c maka akan dicetak "a is smaller than c", jika a sama dengan c akan dicetak"a is equal to c" , dan jika a lebih dari c maka akan dicetak "a is bigger than c".
+5. Selain itu didalam if juga bisa digunakan if lagi (nested if).
+6. Selain itu juga dapat digunakan switch case yang mengecek apakah case 1 (kondisi 1) terpenuhi maka isi case 1 akan dijalankan.
 
+# Function
+```
+#include <stdio.h>
 
+int sum(int a, int b){
+    int result = a +b;
+    return result; //or we can just do return a + b ;
+}
 
+void summation(int a , int b){
+    int result = a +b; //we can alo use the sum function before making it a function inside a function
+    printf("result of x + y is = %d\n",result);
+}
+
+int main(){
+    int x = 10, y = 20;
+    int result = sum(x,y);
+    printf("value of x = %d, value of y = %d\n",x,y);
+    // printf("summed value of both of them (x+y)= %d",result);
+    summation(x,y);
+
+    return 0;
+}
+```
+1. Pada fungsi int sum, didefinisikan result dari penambahan a + b. Dan returnnya adalah result atau hasil a + b.
+2. Pada fungsi void summation didefinisikan result dari penambahan a + b tanpa mengembalikan nilai (return).
+3. Pada fungsi main, didefinisikan x dan y sebesar 10 dan 20. Lalu int result memanggil fungsi int sum dengan argumen (x,y). Setelah dicetak nilai x dan y fungsi summation dipanggil yang isinya adalah penambahan dari a + b.
+
+# Function2
+```
+#include <stdio.h>
+int x =5,y=10;
+void swap();
+
+int main() {
+    // int x = 5, y = 10;
+    swap(x, y); //we need to Pass references (addresses) of x and y
+    printf("x: %d, y: %d\n", x, y); //result should be x: 10, y: 5
+    return 0;
+}
+
+// void sum(int x,y)
+void swap() {
+    int temp = x;
+    x = y;
+    y = temp;
+}
+```
+1. Dideklarasikan nilai x dan y sebesar 5 dan 10 serta deklarasi fungsi swap().
+2. Fungsi swap merupakan fungsi yang akan menukar x dan y sehingga nantinya nilai x = y dan nilai y = x
+3. Fungsi main akan memanggil kembali fungsi swap yang menukar x menjadi 10 dan y menjadi 5 yang selanjutnya dicetak pada fungsi main.
+
+# Operator Bitwise
+1. Pada operator bitwise and misalnya 0101 & 1001 akan dihasilkan 0001 = 1 (Bagian yang sama). 
+2. Pada operator or misalnya 0101 | 1001 akan dihasilkan 1101 = 13 (Digabung).
+3. Pada operator XOR misalnya 0101 ^ 1001 akan dihasilkan 1100 = 12 (Bagian yang beda = 1, bagian yang sama = 0).
+4. Pada operator not 0 akan diubah menjadi 1 dan 1 akan diubah menjadi 0 misalnya 0101 akan menjadi 1010.
+5. Pada operator a << 1 akan Menggeser bit b ke kiri satu posisi, yang setara dengan mengalikan dengan 2. Misalnya 00101 menjadi 01010.
+6. Pada operator a >> 1: Menggeser bit b ke kanan satu posisi, yang setara dengan membagi dengan 2. Misalnya 00101 menjadi 00010.
 
 
