@@ -1,8 +1,7 @@
-# Git and Github Introduction
 
 | Nama  | Division        | Sub-Division  |
 | ----- | ---------- | ---------- |
-| Name here   | ELC/PGR | Sub-div |
+| Fatharanni Faza  | ELC/PGR | Electrical Design |
 
 # NewFile
 ```
