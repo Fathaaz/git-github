@@ -429,4 +429,44 @@ void swap() {
 5. Pada operator a << 1 akan Menggeser bit b ke kiri satu posisi, yang setara dengan mengalikan dengan 2. Misalnya 00101 menjadi 01010.
 6. Pada operator a >> 1: Menggeser bit b ke kanan satu posisi, yang setara dengan membagi dengan 2. Misalnya 00101 menjadi 00010.
 
+# Contoh Pengaplikasian
+```
+#include <stdio.h>
+void printArray(int arr[], int size) {
+    for (int i = 0; i < size; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
 
+int main() {
+    int arr[] = {10, 20, 30, 40, 50};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    printf("Elemen Array:\n");
+    printArray(arr, size);
+
+    int c;
+    printf("\nMasukkan nilai untuk c: ");
+    scanf("%d", &c);
+
+    if (c < 10) {
+        printf("c lebih kecil dari 10\n");
+    } else {
+        printf("c tidak lebih kecil dari 10\n");
+    }
+
+    printf("Pengulangan dengan while:\n");
+    while (c > 0) {
+        printf("%d ", c);
+        c--;
+    }
+    printf("\n");
+
+    return 0;
+}
+```
+Fungsi printArray berfungsi untuk mencetak isi dari array yang akan berulang selama int i < size dengan increment i++. Pada fungsi main didefinisikan array arr[] dan elemen di dalamnya, didefinisikan juga int size yang merupakan pemagian dari size arr[] dan size dari elemen arr[0]. Kemudian dicetak "Elemen Array: " yang kemudian memanggil fungsi printArray. Kemudian pengguna diminta input nilai c, jika input nilai c<10 maka akan dicetak "c lebih kecil dari 10" namun jika tidak akan dicetak "c tidak lebih kecil dari 10". Selanjutnya ada pengulangan while yang mencetak nilai c dengan increment c-- (berkurang setiap pengulangan).
+
+# Kesulitan
+Dalam mempelajari bahasa C saya memiliki kesulitan dalam bagaimana caranya saya harus tahu kapan menggunakan do while, karena do while melakukan loop terlebih dahulu baru mengecek kondisinya sehingga sangat berbeda dengan loop lain. 
